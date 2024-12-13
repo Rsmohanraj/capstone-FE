@@ -86,7 +86,7 @@ export default function Payment() {
       
           // Send payment request to the backend to process payment
           const { data } = await axios.post(
-            'https://capstone-be-jade.vercel.app/api/v1/payment/process',
+            'https://capstone-be-sjfr.vercel.app/api/v1/payment/process',
             paymentData,
             {
               headers: {
